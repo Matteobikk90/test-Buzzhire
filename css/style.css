@@ -1,3 +1,11 @@
+body {
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Sanchez', serif;
+	letter-spacing: 1px;
+	color: black;
+}
+
 header {
 	height: 76px;
 	border: 1px solid grey;
@@ -12,3 +20,59 @@ header {
 	float: right;
 	margin: 24px;
 }
+
+#me {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#initialText {
+	width: 100%;
+	text-align: center;
+}
+
+#barmans {
+	width: 25%;
+	float: left;
+	border: 1px solid grey;
+	height: 200px;
+	margin-left: 22.5%;
+}
+
+#drivers {
+	width: 25%;
+	float: left;
+	border: 1px solid grey;
+	height: 200px;
+	margin-left: 5%;
+}
+
+#waiters {
+	width: 25%;
+	float: left;
+	border: 1px solid grey;
+	height: 200px;
+	margin-left: 22.5%;
+	margin-top: 5%;
+}
+
+#kitchenPorter {
+	width: 25%;
+	float: left;
+	border: 1px solid grey;
+	height: 200px;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
