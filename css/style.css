@@ -1,0 +1,14 @@
+header {
+	height: 76px;
+	border: 1px solid grey;
+}
+
+#logo {
+	height: 60px;
+	margin: 8px;
+}
+
+#log {
+	float: right;
+	margin: 24px;
+}
