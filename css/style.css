@@ -36,36 +36,47 @@ header {
 	width: 25%;
 	float: left;
 	border: 1px solid grey;
-	height: 200px;
 	margin-left: 22.5%;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../img/barman.jpg");
 }
 
 #drivers {
 	width: 25%;
 	float: left;
 	border: 1px solid grey;
-	height: 200px;
 	margin-left: 5%;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../img/driver.png");
 }
 
 #waiters {
 	width: 25%;
 	float: left;
 	border: 1px solid grey;
-	height: 200px;
 	margin-left: 22.5%;
 	margin-top: 5%;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../img/waiter.jpg");
 }
 
 #kitchenPorter {
 	width: 25%;
 	float: left;
 	border: 1px solid grey;
-	height: 200px;
 	margin-left: 5%;
 	margin-top: 5%;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../img/dish.jpg");
 }
-
 
 
 
