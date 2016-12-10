@@ -9,7 +9,7 @@ $(document).ready(function(){
 		}
 	);
 
-	$("#submit").click(function() {
+	$("#submit").submit(function() {
 
 		var comment = $("#comment").val();
 
