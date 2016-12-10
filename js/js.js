@@ -9,4 +9,20 @@ $(document).ready(function(){
 		}
 	);
 
+	$("#submit").click(function() {
+
+		var comment = $("#comment").val();
+
+		$.ajax({
+			type: 'POST',
+			url: $(this).attr('action'),
+			data: $(this).serialize(),
+
+			success: function(data) {
+				$("#result").append("</br>" + comment);
+			}
+		})
+
+	});
+
 });
