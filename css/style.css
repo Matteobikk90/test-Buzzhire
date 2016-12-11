@@ -4,11 +4,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1px;
 	color: black;
+	background-color: #c4c4b0;
 }
 
 header {
 	height: 76px;
-	border: 1px solid grey;
 }
 
 #logo {
@@ -19,6 +19,13 @@ header {
 #log {
 	float: right;
 	margin: 24px;
+	color: #337ab7;
+    text-decoration: none;
+    list-style: none;
+}
+
+p {
+    margin: 16px 0px 0px 10px;
 }
 
 #btn-prev, #btn-next {
@@ -33,6 +40,7 @@ header {
         border-radius: 50%;
         border: 1px solid #337ab7;
         cursor: pointer;
+        text-decoration: none;
 }
 
 #btn-prev:hover, #btn-next:hover {
@@ -188,9 +196,8 @@ fieldset {
 #comments {
     overflow: hidden;
     font-size: 11px;
-    width: 82%;
-    margin-top: 12px;
-    /* float: right; */
+    width: 76%;
+    margin-top: 11px;
     margin-left: 117px;
 }
 
