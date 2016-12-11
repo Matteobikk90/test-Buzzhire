@@ -12,8 +12,8 @@ header {
 }
 
 #logo {
-	height: 4em;
-	margin: 8px;
+	height: 3em;
+	margin: 16px;
 }
 
 #log {
@@ -24,7 +24,7 @@ header {
 #btn-prev, #btn-next {
         width: 24px;
         height: 24px;
-        margin: 26px;
+        margin: 22px;
 		float: right;
         background-color: rgba(255, 255, 255, 0.4);
         font-size: 14px;
@@ -174,6 +174,7 @@ fieldset {
     height: 100px;
     margin-top: 30px;
     overflow: hidden;
+    display: none;
 }
 
 #idPhoto {
@@ -185,10 +186,14 @@ fieldset {
 }
 
 #comments {
-	margin-left: 25%;
-	overflow: hidden;
-	font-size: 12px;
+    overflow: hidden;
+    font-size: 11px;
+    width: 82%;
+    margin-top: 12px;
+    /* float: right; */
+    margin-left: 117px;
 }
+
 
 
 
