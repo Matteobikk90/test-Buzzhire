@@ -9,8 +9,9 @@ $(document).ready(function(){
 		}
 	);
 
-	$("#submit").submit(function() {
+	$("#submit").click(function() {
 
+		var userName = $("#user").val();
 		var comment = $("#comment").val();
 
 		$.ajax({
@@ -19,7 +20,7 @@ $(document).ready(function(){
 			data: $(this).serialize(),
 
 			success: function(data) {
-				$("#result").append("</br>" + comment);
+				$("#result").append("userName + comment");
 			}
 		})
 

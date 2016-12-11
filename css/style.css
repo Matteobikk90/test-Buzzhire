@@ -162,9 +162,23 @@ fieldset {
     width: 50%;
     margin-left: 25%;
     border: 1px solid grey;
-    position: absolute;
-    height: 200px;
-    margin-top: 100px;
+    height: 100px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+#idPhoto {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 3%;
+}
+
+#comments {
+	margin-left: 25%;
+	overflow: hidden;
+	font-size: 12px;
 }
 
 
