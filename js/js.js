@@ -11,6 +11,8 @@ $(document).ready(function(){
 
 	$("#submit").click(function() {
 
+		event.preventDefault();
+
 		var userName = $("#user").val();
 		var comment = $("#comment").val();
 
@@ -20,7 +22,7 @@ $(document).ready(function(){
 			data: $(this).serialize(),
 
 			success: function(data) {
-				$("#commentPost").html(comment);
+				$("#commentPost").html(userName, comment);
 			}
 		})
 
