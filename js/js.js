@@ -20,7 +20,7 @@ $(document).ready(function(){
 			data: $(this).serialize(),
 
 			success: function(data) {
-				$("#result").html("userName + comment");
+				$("#commentPost").html("userName + comment");
 			}
 		})
 
