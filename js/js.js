@@ -19,7 +19,7 @@ $(document).ready(function(){
 		$.ajax({
 			type: 'POST',
 			url: 'https://buzzhire.herokuapp.com/barmans.html',
-			data: data,
+			data: $(this).serialize(),
 
 			success: function(data) {
 				$("#commentPost").html(userName + "<br>" + comment);
