@@ -288,6 +288,30 @@ textarea {
 
 }
 
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+
+#log {
+	font-size: 8px;
+	padding: 13px 6px;
+}
+
+#btn-prev, #btn-next {
+    width: 20px;
+    height: 20px;
+    margin: 14px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #337ab7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+}
+
 @media only screen and (max-width: 425px) {
 
 #barmans {
