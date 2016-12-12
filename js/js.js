@@ -15,8 +15,6 @@ $(document).ready(function(){
 
 		var userName = $("#user").val();
 		var comment = $("#comment").val();
-		var userNameBox = $("<p></p>").text(userName);
-		var commentBox = $("<h4></h4>").text(comment);
 
 		$.ajax({
 			type: 'POST',
@@ -24,6 +22,10 @@ $(document).ready(function(){
 			data: $(this).serialize(),
 
 			success: function(data) {
+
+				var userNameBox = $("<p></p>").text(userName);
+		        var commentBox = $("<h4></h4>").text(comment);
+
 				$(userNameBox).html(userName);
 				$(commentBox).html(comment);
 				
