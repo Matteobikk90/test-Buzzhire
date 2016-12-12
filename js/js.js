@@ -9,21 +9,21 @@ $(document).ready(function(){
 		}
 	);
 
-	$("#submit").click(function() {
+	$("#submit").click(function(event) {
 
-		// event.preventDefault();
+		event.preventDefault();
 
 		var userName = $("#user").val();
 		var comment = $("#comment").val();
 
 		$.ajax({
 			type: 'POST',
-			url: $(this).attr('action'),
-			data: $(this).serialize(),
+			url: url,
+			data: data,
 
 			success: function(data) {
 				$("#commentPost").html(userName + "<br>" + comment);
-				event.preventDefault();
+				
 			}
 		})
 
