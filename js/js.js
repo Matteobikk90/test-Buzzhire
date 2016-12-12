@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 		$.ajax({
 			type: 'POST',
-			url: url,
+			url: 'https://buzzhire.herokuapp.com/barmans.html',
 			data: data,
 
 			success: function(data) {
