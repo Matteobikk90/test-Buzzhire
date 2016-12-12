@@ -15,6 +15,8 @@ $(document).ready(function(){
 
 		var userName = $("#user").val();
 		var comment = $("#comment").val();
+		var userNameBox = $("<p></p>").text(userName);
+		var commentBox = $("<h4></h4>").text(comment);
 
 		$.ajax({
 			type: 'POST',
@@ -22,23 +24,24 @@ $(document).ready(function(){
 			data: $(this).serialize(),
 
 			success: function(data) {
-				$("#commentPost").html(userName + "<br>" + comment);
+				$(userNameBox).html(userName);
+				$(commentBox).html(comment);
 				
 			}
 		})
 
 	});
 
-	function addNewItem(list, userName, comment) {
+// 	function addNewItem(list, userName, comment) {
 
-	var listComment = document.createElement("p");
-	var listUser = document.createElement("h4");
+// 	var listComment = document.createElement("p");
+// 	var listUser = document.createElement("h4");
 
-	listComment.innerText = comment;
-	listUser.innerText = userName;
+// 	listComment.innerText = comment;
+// 	listUser.innerText = userName;
  
-	list.appendChild(listComment, listUser);
+// 	list.appendChild(listComment, listUser);
 
-}; 
+// }; 
 
 });
