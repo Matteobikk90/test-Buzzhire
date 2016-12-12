@@ -47,7 +47,7 @@ header {
 #log:hover {background-color: #8AF}
 
 #log:active {
-    background-color: #3e8e41;
+    background-color: #8AF;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -193,6 +193,20 @@ fieldset {
 	margin-left: 25%;
 	border: 1px solid grey;
 	padding: 14px;
+}
+
+section {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#mainBarman, #mainDriver, #mainWaiter, #mainKitchen {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    max-height: 100vh;
 }
 
 #submit {

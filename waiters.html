@@ -12,15 +12,32 @@
     <!-- CSS -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  	<link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-  	<!-- JS -->
+    <!-- Add fancyBox -->
+    
+    <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+
+    <link rel="stylesheet" href="js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
+    <!-- JS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/js.js" type="text/javascript"></script>
+    <script src="js/js.js" type="text/javascript" defer></script>
+
+    <!-- Add fancyBox -->
+
+    <script type="text/javascript" src="js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
 </head>
 
@@ -39,6 +56,15 @@
         </nav>
 
     </header>
+
+    <section>
+
+                <a class="fancybox" rel="gallery1" href="img/waiter/Amhani.jpg" title="Amhani - Amazing waiter - 5 stars"></a>
+                <a class="fancybox" rel="gallery1" href="img/waiter/John.jpg" title="John - What a elegance - 4 stars"></a>
+                <a class="fancybox" rel="gallery1" href="img/waiter/Marcus.jpg" title="Marcus - Polite and calm person - 3 stars"></a>
+                <a class="fancybox" rel="gallery1" href="img/waiter/Roger.jpg" title="Waiters Feedback"><img id="mainWaiter" src="img/waiter/Roger.jpg" alt="" /></a>
+
+    </section>
 
     <div id="result">
                 
