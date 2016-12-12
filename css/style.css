@@ -16,35 +16,68 @@ header {
 	margin: 16px;
 }
 
-#log {
+/*#log {
 	float: right;
 	margin: 24px;
 	color: #337ab7;
     text-decoration: none;
     list-style: none;
+}*/
+
+#log {
+    float: right;
+    margin: 16px;
+    color: #337ab7;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #337ab7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #8AF;
+}
+
+#log:hover {background-color: #8AF}
+
+#log:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 p {
     margin: 16px 0px 0px 10px;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 #btn-prev, #btn-next {
-        width: 24px;
-        height: 24px;
-        margin: 22px;
-		float: right;
-        background-color: rgba(255, 255, 255, 0.4);
-        font-size: 14px;
-        line-height: 25px;
-        text-align: center;
-        border-radius: 50%;
-        border: 1px solid #337ab7;
-        cursor: pointer;
-        text-decoration: none;
+    width: 24px;
+    height: 24px;
+    margin: 22px;
+	float: right;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #337ab7;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #btn-prev:hover, #btn-next:hover {
-        background-color: #337ab7;
+    background-color: #337ab7;
 }
 
 #container {
@@ -182,7 +215,7 @@ fieldset {
     height: 100px;
     margin-top: 30px;
     overflow: hidden;
-
+    display: none;
 }
 
 #idPhoto {

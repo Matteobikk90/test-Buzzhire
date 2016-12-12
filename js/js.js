@@ -31,16 +31,4 @@ $(document).ready(function(){
 
 	});
 
-// 	function addNewItem(list, userName, comment) {
-
-// 	var listComment = document.createElement("p");
-// 	var listUser = document.createElement("h4");
-
-// 	listComment.innerText = comment;
-// 	listUser.innerText = userName;
- 
-// 	list.appendChild(listComment, listUser);
-
-// }; 
-
 });
